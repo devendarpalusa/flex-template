@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        a{ text-decoration: none;}
+        a{ text-decoration: none; color: black;}
 #vk{
 border:1px solid;
 padding:20px;
@@ -21,41 +21,45 @@ table,td,tr,th{border:1px solid;border-collapse:collapse;  background-color: dar
     }
 
 #vk2{ margin-left:246px;
-    margin-top: -1050px;
+    margin-top: -690px;
     padding:20px;
     border:1px ;
+    height:680px;
     width:1250px;
-    height:1000px;
+
     overflow:scroll;
 }
   h3, h2{ display:inline-block;
  padding:20px;
  border:1px solid;}
-h2:hover{background-color:black;}
-.ss:hover{ background-color:black;}
-
+h2:hover{background-color:green;}
+.ss:hover{ background-color:green; }
+.ss{ width:100px;}
 span{ display: inline-block;}
 
+.ok:hover{opacity:0.6;}
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
-   <div id="vk" >
+<div id="vk">
     <img src="./avatar_g2.jpg" width="150px;">
     <h1>portfolio</h1>
     <h1>powered by css</h1>
-    <h1><a href="#qq">portfolio</a></h1>
-    <h1><a href="#ff">contact</a></h1>
-    <h1><a href="#jj">about</a></h1>
-    <h1><a> </a></h1>
+    <h1><a href="#qq" > <i class="fa-solid fa-briefcase"></i>portfolio</a></h1>
+    <h1><a href="#jj"> <i class="fa-solid fa-user"></i>about</a></h1>
+<h1><a href="#ff"><i class="fa-solid fa-envelope"></i>contact</a></h1>
+    <h1><a class="fa-brands fa-facebook"></a><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-snapchat"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-youtube"></i></h1>
     </div>
    <div id="vk2">
     <h1 id="qq">portfolio</h1>
     <label for="box"><b></h1>filter:</label></h1></label>
-    <h2><a>photos</a></h2>
+    <h2><a><i class="fa-solid fa-image"></i>photos</a></h2>
    <h2> <a>all</a></h2>
-   <h2>art</h2>
+   <h2><a> <i class="fa-solid  fa-diamond"></i>design</a></h2>
+   <h2><a><i class="fa-solid fa-paintbrush"></i>art</a></h2>
    <hr>
-   <span>
+   <span class="ok">
     <img src="./mountains.jpg" width="400px;">
      <h1> Lorem Ipsum</h1> 
 <p style="padding:2opx; border:2px; height:55px; width:400px;">
@@ -65,7 +69,7 @@ porta lectus vitae, ultricies congue
 gravida diam non fringilla.
 </p>
 </span>
-<span>
+<span class="ok">
     <img src="./lights.jpg" width="400px;">
     <h1>lorem ipsum</h1>
    <p style="padding:2opx; border:2px; height:55px; width:400px;">
@@ -76,7 +80,7 @@ gravida diam non fringilla.
     </p>
     </span>  
 <span>
-<img src="./nature.jpg" width="400">
+<img src="./nature.jpg" width="400" class="ok">
 <h1> lorem ipsum</h1>
     <p style="padding:2opx; border:2px; height:55px; width:400px;">
     
@@ -87,7 +91,7 @@ gravida diam non fringilla.
         </p>
     </span>
     <span>
-<img src="./p1.jpg">
+<img src="./p1.jpg" class="ok">
 <h1>lorem ipsum</h1>
 <p style="padding:2opx; border:2px; height:55px; width:400px;">
 Praesent tincidunt sed tellus ut
@@ -97,7 +101,7 @@ gravida diam non fringilla.
     </p>
     </span>
     <Span>
-        <img src="./p2.jpg" width="400px;">
+        <img src="./p2.jpg" width="400px;" class="ok">
         <h1> lorem ipsum</h1>
         <p style="padding:2opx; border:2px; height:55px; width:400px;">
 Praesent tincidunt sed tellus ut
@@ -107,7 +111,7 @@ gravida diam non fringilla.
     </p>
     </Span>
     <span>
-        <img src="./p3.jpg" width="400px;">
+        <img src="./p3.jpg" width="400px;" class="ok">
         <h1>lorem ipsum</h1>
         <p style="padding:2opx; border:2px; height:55px; width:400px;">
 Praesent tincidunt sed tellus ut
@@ -124,6 +128,7 @@ gravida diam non fringilla.
         Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.      
     </p>
 </span>
+
 <h1>technical skills</h1>
 <h4>photography</h4>
 <table class="ms">
@@ -165,7 +170,7 @@ gravida diam non fringilla.
          </span>
          <span>
  <table style="text-align:center; width:400px; height:300px;">
- <tr><td>basic</td></tr>
+ <tr><td>pro</td></tr>
                <tr><td>pro</td></tr>
                 <tr> <td>web design</td></tr>
                  <tr><td>50gb storage</td></tr>
@@ -181,13 +186,13 @@ gravida diam non fringilla.
                             <tr><td>unlimited storage</td></tr>
                             <tr><td >endless support</td></tr> 
                             <tr><td>$50 per month</td></tr>
-                           <tr><td><button style="background-color: aqua;" class="ss">signup</button></td></tr>
+                           <tr><td><button style="background-color: aqua;"  class="ss">signup</button></td></tr>
                            </table>
-                   </span><hr>
+                   </span>
             <span>
                 <h1 id="ff">contact me</h1>
                 <table width="1000" height="100" >
-                    <tr>
+                    <tr style="text-align: center;">
                         <td>contact me</td>
                         <td>email@gmail.com</td>
                         <td>call 999999999</td>
@@ -195,12 +200,13 @@ gravida diam non fringilla.
                 </table> 
                    </span>
                    <h6>name</h6>
-                   <input type="text" style="width:1000px; height: 15px;" >
-                  <h6> email</h6><input type="text" style="width: 1000px; height: 15px;;">
+                   <input type="text" style="width:1200px; height: 30px;" >
+                  <h6> email</h6><input type="text" style="width: 1200px; height: 30px;;">
                   <h6>message</h6>
-                  <input type="text"  style="width:1000px; height:15px;">
+                  <input type="text"  style="width:1200px; height:30px;">
                 </span>
                 <hr>
+                <span style="background-color: aqua; width:1200px;">
                 <span >
                     <h1>footer</h1>
                     <p style="padding:5px; border:1px; width:300px; height:60px;">
@@ -208,25 +214,27 @@ gravida diam non fringilla.
                     Sed vitae justo condimentum, porta lectus 
                     vitae, ultricies congue gravida diam non fringilla.</p>
                 </span>
-                <span>
-                    lorem
-                    <img src="./gondol.jpg" width="30" height="30">
-                    sed mantis nunc
-                    ipsum<img src="./workshop.jpg" width="30" height="30"> praes minti sed
+                <span style="width:300px;margin-left:100px;">
+                    lorem<br>
+                    <img src="./gondol.jpg" width="30" height="30"><br>
+                    sed mantis nunc <br>
+                    ipsum<br><img src="./workshop.jpg" width="30" height="30"><br> praes minti sed
                 </span>
-                <span style= "width:300px; height:100px;">
+                <span style= "width:400px;">
+                    <h1>popular tags</h1>
                     <button>travel</button style="background-color:black; color:white;">
                         <button>tavel</button>
                         <button>new york</button>
-                        <button>london</button>
+                        <button>london</button><br>
                         <button>diy</button>
                         <button>america</button>
                         <button>clothing</button>
-                        <button>shopping</button>
+                        <button>shopping</button><br>
                         <button>trips</button>
                         <button>news</button>
                         <button>blogs</button>
                         <button>shout out</button>
+                </span>
                 </span>
 </div>
 </body>
